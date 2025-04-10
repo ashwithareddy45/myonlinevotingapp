@@ -1,0 +1,31 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:tools="http://schemas.android.com/tools" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent" 
+    android:background="@drawable/evm" 
+    android:orientation="vertical" 
+    android:padding="20dp" 
+    android:gravity="center_horizontal" 
+    tools:context=".MainActivity"> 
+ 
+    <TextView 
+        android:id="@+id/tv_welcome" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="0dp" 
+        android:gravity="center" 
+        android:text="Welcome to the Online Voting System" 
+        android:textColor="#090909" 
+        android:textSize="20sp" 
+        android:textStyle="bold" /> 
+ 
+    <Button 
+        android:id="@+id/btn_get_started" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:text="Get Started" 
+        android:gravity="center" 
+        android:textColor="#FFFFFF" 
+        android:backgroundTint="#6200EE" /> 
+</LinearLayout> 
